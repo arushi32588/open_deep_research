@@ -181,12 +181,12 @@ Content-Type: application/json
 Request Body:
 {
     "topic": "Your research topic",
-    "search_api": "tavily",
-    "planner_provider": "anthropic",
-    "planner_model": "claude-3-7-sonnet-latest",
-    "writer_provider": "anthropic",
-    "writer_model": "claude-3-5-sonnet-latest",
-    "max_search_depth": 1,
+                           "search_api": "tavily",
+                           "planner_provider": "anthropic",
+                           "planner_model": "claude-3-7-sonnet-latest",
+                           "writer_provider": "anthropic",
+                           "writer_model": "claude-3-5-sonnet-latest",
+                           "max_search_depth": 1,
     "report_structure": null,
     "local_documents": {
         "enabled": true,

@@ -1,6 +1,7 @@
 # src/open_deep_research/api/app.py
 
 import os
+from dotenv import load_dotenv
 import json
 import uuid
 import asyncio
@@ -11,6 +12,9 @@ from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import shutil
+
+# Load environment variables
+load_dotenv()
 
 # Import LangGraph components
 from langgraph.checkpoint.memory import MemorySaver
